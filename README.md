@@ -19,6 +19,7 @@ Creo un array asociativo con los multiplos 3, 5 y 15 con su texto a reemplazar.
 
 ## Ciclo de identificacion de numeros
 usando puntero se va reemplazando el valor obtenido por la funcion php <strong>array_reduce</strong>, en caso de no encontrar se retorna mismo valor original.
+
 		foreach($numeros as &$num){
 
 				$num = array_reduce($reemplazos, function($a, $item) use($num){
