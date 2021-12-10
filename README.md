@@ -1,6 +1,5 @@
 # Solucion
-Numeros del 1 al 100 divisibles por 3, 5 y ambos respectivamente.
-Creo un array asociativo con los multiplos 3, 5 y 15 con su texto a reemplazar.
+<p>Creo un array asociativo con los multiplos 3, 5 y 15, con su texto a reemplazar. El valor de 15 se usa porque si un numero es divisible por la multiplicacion entre 3 y 5, entonces es divisibe por ambos numeros.</p>
 
 ## array de reemplazo
 		$reemplazos = array(
@@ -18,7 +17,7 @@ Creo un array asociativo con los multiplos 3, 5 y 15 con su texto a reemplazar.
 		}
 
 ## Ciclo de identificacion de numeros
-usando puntero se va reemplazando el valor obtenido por la funcion php <strong>array_reduce</strong>, en caso de no encontrar se retorna mismo valor original.
+<p>usando puntero se va reemplazando el valor obtenido por la funcion php <strong>array_reduce</strong>, en caso de no encontrar se retorna mismo valor original.</p>
 
 		foreach($numeros as &$num){
 
@@ -35,4 +34,6 @@ usando puntero se va reemplazando el valor obtenido por la funcion php <strong>a
 		}
 
 ## observaciones
-Es posible realizar todo dentro de un solo ciclo, pero creo que asi mejora la lectura.
+<p>Es posible realizar todo dentro de un solo ciclo, pero creo que asi mejora la lectura.</p>
+<p>Intencionalmente he omitido las tildes.</p>
+
